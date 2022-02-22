@@ -7,7 +7,8 @@ Payment Gateway
 <a id="getting-started"></a>
 
 ## Getting Started
-To run 
+### To run
+ 
 localhost:8080/src/API/paymentForm.php
 
 
