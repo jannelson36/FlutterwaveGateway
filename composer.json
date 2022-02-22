@@ -1,0 +1,24 @@
+{
+  "name": "fluttewave/pay-plugin",
+  "description": "Flutterwave Payment Plugin",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.2",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FlutterwavePay\\": "src/",
+      "FlutterwaveApi\\": "src/Api"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "FlutterwavePay\\FlutterwavePay",
+    "label": {
+      "de-DE": "Flutterwave payment plugin",
+      "en-GB": "Flutterwave payment plugin"
+    }
+  },
+  "require": {
+    "flutterwavedev/flutterwave-v3": "^1.0",
+    "seunex17/flutterwave-php-payment-gateway": "^1.0"
+  }
+}
