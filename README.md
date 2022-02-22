@@ -8,11 +8,11 @@ Payment Gateway
 
 ## Getting Started
 ### To run
- 
+
 localhost:8080/src/API/paymentForm.php
 
 
-Edit the paymentForm.php and processPayment.php files to suit your purpose. Both files are well documented.
+Edit the paymentForm.php and processPayment.php files in src/API to suit your purpose. Both files are well documented.
 
 ### Setting Up Environment Variables
 
